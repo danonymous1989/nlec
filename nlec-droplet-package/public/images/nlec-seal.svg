@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <path id="sealTopArc"    d="M 32,250 A 218,218 0 0,0 468,250"/>
+    <path id="sealBottomArc" d="M 32,250 A 218,218 0 0,1 468,250"/>
+  </defs>
+
+  <!-- ── OUTER RING ─────────────────────────────────────────────── -->
+  <circle cx="250" cy="250" r="246" fill="#0B1F3A"/>
+  <circle cx="250" cy="250" r="246" fill="none" stroke="#0B1F3A" stroke-width="2"/>
+
+  <!-- ── GOLD ACCENT DIVIDERS ───────────────────────────────────── -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#C6A85A" stroke-width="1.5"/>
+  <circle cx="250" cy="250" r="193" fill="none" stroke="#C6A85A" stroke-width="0.75"/>
+
+  <!-- ── WHITE INNER FIELD ──────────────────────────────────────── -->
+  <circle cx="250" cy="250" r="193" fill="#FFFFFF"/>
+
+  <!-- ── DOT SEPARATORS AT EQUATOR ─────────────────────────────── -->
+  <circle cx="32"  cy="250" r="3" fill="#C6A85A"/>
+  <circle cx="468" cy="250" r="3" fill="#C6A85A"/>
+
+  <!-- ── RING TEXT: TOP ─────────────────────────────────────────── -->
+  <text fill="#FFFFFF"
+        font-family="Cinzel, 'Trajan Pro', 'Book Antiqua', serif"
+        font-size="14.5"
+        font-weight="600"
+        letter-spacing="3.2">
+    <textPath href="#sealTopArc" startOffset="50%" text-anchor="middle">
+      NATIONAL LIVED EXPERIENCE COMMISSION
+    </textPath>
+  </text>
+
+  <!-- ── RING TEXT: BOTTOM ──────────────────────────────────────── -->
+  <text fill="#C6A85A"
+        font-family="Cinzel, 'Trajan Pro', 'Book Antiqua', serif"
+        font-size="8"
+        font-weight="600"
+        letter-spacing="1.1">
+    <textPath href="#sealBottomArc" startOffset="50%" text-anchor="middle">
+      SYSTEMS INTELLIGENCE  ·  GOVERNANCE OVERSIGHT  ·  PUBLIC INTEREST PROTECTION
+    </textPath>
+  </text>
+
+  <!-- ── SHIELD (OUTER SHAPE) ───────────────────────────────────── -->
+  <path d="M 198,148 L 302,148 L 302,272 Q 302,344 250,360 Q 198,344 198,272 Z"
+        fill="#FFFFFF"
+        stroke="#0B1F3A"
+        stroke-width="2.5"
+        stroke-linejoin="miter"/>
+
+  <!-- ── SHIELD INNER BORDURE ───────────────────────────────────── -->
+  <path d="M 205,155 L 295,155 L 295,272 Q 295,336 250,351 Q 205,336 205,272 Z"
+        fill="none"
+        stroke="#0B1F3A"
+        stroke-width="1"
+        stroke-linejoin="miter"/>
+
+  <!-- ── CROSSHAIR LINES ────────────────────────────────────────── -->
+  <line x1="214" y1="242" x2="286" y2="242" stroke="#0B1F3A" stroke-width="1.75"/>
+  <line x1="250" y1="206" x2="250" y2="278" stroke="#0B1F3A" stroke-width="1.75"/>
+
+  <!-- ── TICK MARKS ─────────────────────────────────────────────── -->
+  <line x1="232" y1="235" x2="232" y2="249" stroke="#0B1F3A" stroke-width="1.25"/>
+  <line x1="268" y1="235" x2="268" y2="249" stroke="#0B1F3A" stroke-width="1.25"/>
+  <line x1="243" y1="224" x2="257" y2="224" stroke="#0B1F3A" stroke-width="1.25"/>
+  <line x1="243" y1="260" x2="257" y2="260" stroke="#0B1F3A" stroke-width="1.25"/>
+
+  <!-- ── CARDINAL NODE SQUARES ──────────────────────────────────── -->
+  <rect x="244" y="199" width="12" height="12" fill="#0B1F3A"/>
+  <rect x="280" y="236" width="12" height="12" fill="#0B1F3A"/>
+  <rect x="244" y="273" width="12" height="12" fill="#0B1F3A"/>
+  <rect x="208" y="236" width="12" height="12" fill="#0B1F3A"/>
+
+  <!-- ── CENTRE NODE ─────────────────────────────────────────────── -->
+  <circle cx="250" cy="242" r="11" fill="#0B1F3A"/>
+  <circle cx="250" cy="242" r="4"  fill="#FFFFFF"/>
+</svg>

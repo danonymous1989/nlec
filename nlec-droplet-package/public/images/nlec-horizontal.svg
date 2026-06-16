@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120">
+
+  <!-- ── SEAL CIRCLE ────────────────────────────────────────────── -->
+  <circle cx="58" cy="60" r="54" fill="#0B1F3A"/>
+
+  <!-- ── SEAL INNER FIELD ───────────────────────────────────────── -->
+  <circle cx="58" cy="60" r="42" fill="#FFFFFF"/>
+  <circle cx="58" cy="60" r="42" fill="none" stroke="#C6A85A" stroke-width="1"/>
+  <circle cx="58" cy="60" r="47" fill="none" stroke="#C6A85A" stroke-width="0.75"/>
+
+  <!-- ── SHIELD INSIDE SEAL ─────────────────────────────────────── -->
+  <path d="M 40,32 L 76,32 L 76,68 Q 76,84 58,89 Q 40,84 40,68 Z"
+        fill="#FFFFFF"
+        stroke="#0B1F3A"
+        stroke-width="1.5"
+        stroke-linejoin="miter"/>
+  <path d="M 43,35 L 73,35 L 73,68 Q 73,81 58,85 Q 43,81 43,68 Z"
+        fill="none"
+        stroke="#0B1F3A"
+        stroke-width="0.75"
+        stroke-linejoin="miter"/>
+
+  <!-- ── CROSSHAIR ───────────────────────────────────────────────── -->
+  <line x1="44" y1="58" x2="72" y2="58" stroke="#0B1F3A" stroke-width="1.25"/>
+  <line x1="58" y1="38" x2="58" y2="78" stroke="#0B1F3A" stroke-width="1.25"/>
+  <line x1="51" y1="52" x2="51" y2="64" stroke="#0B1F3A" stroke-width="1"/>
+  <line x1="65" y1="52" x2="65" y2="64" stroke="#0B1F3A" stroke-width="1"/>
+  <line x1="52" y1="47" x2="64" y2="47" stroke="#0B1F3A" stroke-width="1"/>
+  <line x1="52" y1="69" x2="64" y2="69" stroke="#0B1F3A" stroke-width="1"/>
+
+  <!-- ── CARDINAL NODES ─────────────────────────────────────────── -->
+  <rect x="54" y="33" width="8" height="8" fill="#0B1F3A"/>
+  <rect x="68" y="54" width="8" height="8" fill="#0B1F3A"/>
+  <rect x="54" y="75" width="8" height="8" fill="#0B1F3A"/>
+  <rect x="40" y="54" width="8" height="8" fill="#0B1F3A"/>
+  <circle cx="58" cy="58" r="7"   fill="#0B1F3A"/>
+  <circle cx="58" cy="58" r="2.5" fill="#FFFFFF"/>
+
+  <!-- ── SEAL RING TEXT (tiny) ──────────────────────────────────── -->
+  <defs>
+    <path id="hlTopArc" d="M 8,60 A 50,50 0 0,0 108,60"/>
+  </defs>
+  <text fill="#FFFFFF"
+        font-family="Cinzel, 'Trajan Pro', serif"
+        font-size="5"
+        font-weight="600"
+        letter-spacing="1">
+    <textPath href="#hlTopArc" startOffset="50%" text-anchor="middle">
+      NATIONAL LIVED EXPERIENCE COMMISSION
+    </textPath>
+  </text>
+
+  <!-- ── VERTICAL DIVIDER ───────────────────────────────────────── -->
+  <line x1="122" y1="14" x2="122" y2="106" stroke="#0B1F3A" stroke-width="1"/>
+
+  <!-- ── ORGANISATION TEXT ──────────────────────────────────────── -->
+  <text x="136" y="38"
+        font-family="Cinzel, 'Trajan Pro', 'Book Antiqua', serif"
+        font-size="11"
+        font-weight="600"
+        fill="#0B1F3A"
+        letter-spacing="2.5">NATIONAL LIVED EXPERIENCE</text>
+  <text x="136" y="54"
+        font-family="Cinzel, 'Trajan Pro', 'Book Antiqua', serif"
+        font-size="11"
+        font-weight="600"
+        fill="#0B1F3A"
+        letter-spacing="2.5">COMMISSION</text>
+
+  <!-- ── HORIZONTAL RULE ────────────────────────────────────────── -->
+  <line x1="136" y1="62" x2="512" y2="62" stroke="#0B1F3A" stroke-width="1.25"/>
+
+  <!-- ── WORDMARK ────────────────────────────────────────────────── -->
+  <text x="136" y="101"
+        font-family="Cinzel, 'Trajan Pro', 'Book Antiqua', serif"
+        font-size="44"
+        font-weight="700"
+        fill="#0B1F3A"
+        letter-spacing="5">NLEC</text>
+</svg>

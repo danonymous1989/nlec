@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://nlec.au/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://nlec.au/about</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nlec.au/standards</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://nlec.au/assessments</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nlec.au/publications</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nlec.au/research</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nlec.au/submissions</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nlec.au/request-briefing</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nlec.au/methodology</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nlec.au/dashboard</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nlec.au/governance</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://nlec.au/advisory-council</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nlec.au/news</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nlec.au/services</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://nlec.au/membership</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://nlec.au/membership/professional</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nlec.au/membership/institutional</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nlec.au/certifications</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nlec.au/pricing</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nlec.au/contact</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://nlec.au/governance-assessment</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nlec.au/submit-evidence</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nlec.au/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://nlec.au/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://nlec.au/refund-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>
